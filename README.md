@@ -56,6 +56,6 @@ A simple **Book Management API** built with **Node.js**, **Express**, **SQLite (
    You will see interactive Swagger documentation.
 
 ## 🔑 Authentication
-   **Register a user via /user/register**
-   **Login via /user/login to get a JWT token**
-   **Copy the token and use it as Bearer Token in the Authorization header for secured routes.**
+1. **Register a user via /user/register**
+2. **Login via /user/login to get a JWT token**
+3. **Copy the token and use it as Bearer Token in the Authorization header for secured routes.**
