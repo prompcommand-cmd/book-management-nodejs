@@ -1,0 +1,26 @@
+{
+  "name": "ujian-praktik-backend-developer-(Node.js)–GreatDayHR",
+  "version": "1.0.0",
+  "description": "Ujian Praktik Backend Developer (Node.js) – GreatDay HR. Simple Books API with Clean Architecture, SQLite, JWT auth and audit logging",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^6.14.3",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier": "^3.3.3"
+  }
+}
